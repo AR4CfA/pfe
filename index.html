@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Jewel Theme">
+        <meta name="description" content="Responsive and Modern">
+        <meta name="keywords" content="">
+        <title>Casa Location - Responsive and Modern</title>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <!-- reset css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/css_reset.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.datetimepicker.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+        <!-- preload -->
+        <link rel="stylesheet" type="text/css" href="assets/css/loaders.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="">
+        <!-- MAIN -->
+        <div class="load-wrap">
+            <div class="wheel-load">
+                <img src="images/loader.gif" alt="" class="image">
+            </div>
+        </div>
+        <div class="wheel-menu-wrap ">
+            <div class="container-fluid wheel-bg1">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="wheel-logo">
+                            <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-xs-12 padd-lr0">
+                        <div class="wheel-top-menu clearfix">
+                            <div class="wheel-top-menu-info">
+                                <div class="top-menu-item"><a href="#"><i class="fa fa-phone"></i><span>(+212) 06 01 00 00 00</span></a></div>
+                                <div class="top-menu-item"><a href="#"><i class="fa fa-envelope"></i><span>contact@casa-location.com</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 ">
+                        <div class="wheel-navigation">
+                            <nav id="dl-menu">
+                                <!-- class="dl-menu" -->
+                                <ul class="main-menu dl-menu">
+                                    <li class="menu-item   current-menu-parent menu-item-has-children ">
+                                        <a href="index.html">Accueil</a>
+                                    </li>
+                                    <li class="menu-item current-menu-parent menu-item-has-children  ">
+                                        <a href="car-list-grid.html"> Modeles </a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="reservation1.html">Reservation</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children  ">
+                                        <a href="contact.html">contact</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children  ">
+                                        <a href="about.html">À propos</a>
+                                    </li>
+                                </ul>
+                                <div class="nav-menu-icon"><i></i></div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wheel-start">
+            <img src="images/bg1.jpg" alt="" class="wheel-img">
+            <div class="container padd-lr0">
+                <div class="col-lg-6 col-lg-push-6 ">
+                    <header class="wheel-header marg-lg-b100 marg-lg-t200  marg-md-b0 marg-md-t0">
+                        <h1>Nous sommes la roue  </h1>
+                        <h2>Rechercher - Embaucher - Comparer - Économiser</h2>
+                        <span>Nous vous aidons à louer une voiture dans plus de 50 Villes</span>
+                    </header>
+                </div>
+                <div class="col-lg-6 col-lg-pull-6  padd-lr0">
+                    <div class="wheel-start-form">
+                        <form action="car-list-grid.html">
+                            <label for="input-val11"><span>Dropping Off</span>
+                            <input type="text" id='input-val11' placeholder="ZIP, City, Airport or Address" required>
+                            </label>
+                            <label for="input-val12"><span>Picking Up</span>
+                            <input type="text" id='input-val12' placeholder="ZIP, City, Airport or Address" required>
+                            </label>
+                            <div class="clearfix">
+                                <div class="wheel-date">
+                                    <span>Pickup Date</span>
+                                    <label for="input-val13" class="fa fa-calendar">
+                                    <input  class="datetimepicker" id='input-val13' type="text" value="29 Apr">
+                                    </label>
+                                </div>
+                                <div class="wheel-date ">
+                                    <span>Pickup time</span>
+                                    <label for="input-val14" class="fa fa-clock-o">
+                                    <input class="timepicker" id='input-val14' type="text" value="18:00">
+                                    </label>
+                                </div>
+                                <div class="wheel-date">
+                                    <span>Return Date</span>
+                                    <label for="input-val15" class="fa fa-calendar">
+                                    <input  class="datetimepicker" id='input-val15' type="text" value="29 Apr">
+                                    </label>
+                                </div>
+                                <div class="wheel-date">
+                                    <span>Return Time</span>
+                                    <label for="input-val16" class="fa fa-clock-o">
+                                    <input class="timepicker" id='input-val16' type="text" value="18:00">
+                                    </label>
+                                </div>
+                                <div class="wheel-date">
+                                    <span>Driver’s Age</span>
+                                    <select class="selectpicker">
+                                        <option>21</option>
+                                        <option>22</option>
+                                        <option>23</option>
+                                        <option>24</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>28</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                        <option>31</option>
+                                        <option>32</option>
+                                        <option>33</option>
+                                        <option>34</option>
+                                        <option>35</option>
+                                        <option>36</option>
+                                        <option>37</option>
+                                        <option>38</option>
+                                        <option>39</option>
+                                        <option>40</option>
+                                        <option>41</option>
+                                        <option>42</option>
+                                        <option>43</option>
+                                        <option>44</option>
+                                        <option>45</option>
+                                        <option>46</option>
+                                        <option>47</option>
+                                        <option>48</option>
+                                        <option>49</option>
+                                        <option>50</option>
+                                    </select>
+                                </div>
+                                <div class="wheel-date">
+                                    <span>Resident</span>
+                                    <select class="selectpicker">
+                                        <option>USA</option>
+                                        <option>UA</option>
+                                        <option>UK</option>
+                                        <option>AU</option>
+                                        <option>LT</option>
+                                        <option>JP</option>
+                                        <option>IT</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <button class="wheel-btn" id="input-val18">Search</button>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////// -->
+        <div class="wheel-bg2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-header text-center marg-lg-t140 marg-lg-b340 marg-md-t140 marg-md-b140 marg-sm-t70 ">
+                            <h5>le plus grand en ligne </h5>
+                            <h3>car <span>De location</span>  Service</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wheel-clients">
+            <div class="container padd-lr0">
+                <div class="row">
+                    <div class="col-md-4 padd-r0 padd-md-lr15">
+                        <div class="wheel-service-item text-center wheel-bg3">
+                            <div class="wheel-service-logo">
+                                <img src="images/ico1.png" alt="">
+                            </div>
+                            <h5>QUALITÉ</h5>
+                            <p>Afin de satisfaire sa clientèle Casa Location sélectionne des véhicules haut de gamme et mobilise tout son personnel afin de vous offrir un service de qualité.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padd-lr0 padd-md-lr15">
+                        <div class="wheel-service-item text-center wheel-service-active wheel-bg4">
+                            <div class="wheel-service-logo">
+                                <img src="images/ico2.png" alt="">
+                            </div>
+                            <h5>FLEXIBILITÉ</h5>
+                            <p>Nos services sont personnalisés selon la demande de notre clientèle (Business, tourisme, particuliers…).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padd-l0 padd-md-lr15">
+                        <div class="wheel-service-item  text-center wheel-bg5">
+                            <div class="wheel-service-logo">
+                                <img src="images/ico3.png" alt="">
+                            </div>
+                            <h5>DISPONIBILITÉ</h5>
+                            <p>L’équipe de Casa Location est à votre entière disposition toute l’année, 7/7. L'agence assure la livraison de ses véhicules dans tout le territoire marocain (Aéroports, Casablanca, Marrakech, Tanger, Rabat, Agadir …).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <div class="wheel-service-img">
+                        <img src="images/i1.png" alt="" class="wheel-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////////////////////////////////// -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="wheel-header wheel-testi-header text-center marg-lg-t155 marg-lg-b65 marg-md-t50  marg-md-b50">
+                        <h3>Notre mission est <span>la satisfaction</span> du client</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="wheel-testimonial text-center">
+                        <div class="wheel-testimonial-info">
+                            <span>Achraf Charid</span>
+                            <img src="images/l1.png" alt="">
+                            <p>Founder</p>
+                        </div>
+                        <div class="wheel-testimonial-info">
+                            <span>Aymane Rizki</span>
+                            <img src="images/l1.png" alt="">
+                            <p>Co-Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 padd-lr0 ">
+                    <div class="wheel-testimonial-item">
+                        <i class="fa fa-users"></i>
+                        <span data-to="124" data-speed="1000"></span><b>+</b>
+                        <p>Employés dévoués</p>
+                    </div>
+                    <div class="wheel-testimonial-item">
+                        <i class="fa fa-thumbs-o-up"></i>
+                        <span data-to="600" data-speed="5000"></span><b>+</b>
+                        <p>Clients satisfaits</p>
+                    </div>
+                    <div class="wheel-testimonial-item">
+                        <i class="fa  fa-car"></i>
+                        <span data-to="50" data-speed="6000"></span><b>+</b>
+                        <p>100% Ajuster véhicules</p>
+                    </div>
+                    <div class="wheel-testimonial-item">
+                        <i class="fa fa-trophy"></i>
+                        <span data-to="10" data-speed="10000"></span><b>+</b>
+                        <p>Int. Récompenses obtenues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////////////////////////////////////////// -->
+        <div class="wheel-collection wheel-bg2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-header text-center marg-lg-t140 marg-lg-b65  marg-md-t50 ">
+                            <h5>Nous avons un grand </h5>
+                            <h3>collection de <span>vehicles</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div class="tabs">
+                            <div class="tabs-header">
+                                <ul>
+                                    <li class="active"><a href="#">Le plus populaire</a></li>
+                                    <li><a href="#">Nouvellement ajouté</a></li>
+                                    <li><a href="#">En soldes</a></li>
+                                </ul>
+                            </div>
+                            <div class="tabs-content  marg-lg-b30">
+                                <div class="tabs-item active ">
+                                    <div class="swiper-container" data-autoplay="0" data-touch="1" data-mouse="0" data-xs-slides="1" data-sm-slides="2" data-md-slides="4" data-lg-slides="6" data-add-slides="6" data-slides-per-view="responsive" data-loop="1" data-speed="1000">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Volkswagen Touareg 2019' data-carClass='4x4' data-price='900 DH' data-text='en boite Automatique et profitez de ses lignes bien soignées, sa motorisation avancée et économique et vivez l’expérience d’une voiture sportive en ville ou sur l’autoroute.' data-bags='2 Bags' data-passenger='4 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Renault Megane' data-carClass='Compact' data-price='320 DH' data-text='rend vos déplacement pratique et confortable grace à ces multiples avantages: ( aide au parking avant,Console de parking centrale de rangement avec accoudoir glissant,frein de parking assisté.....).' data-speed='5.6/100 MPG' data-img='images/i32.png'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Volkswagen Touareg 2019' data-carClass='4x4' data-price='900 DH' data-text='en boite Automatique et profitez de ses lignes bien soignées, sa motorisation avancée et économique et vivez l’expérience d’une voiture sportive en ville ou sur l’autoroute.' data-bags='2 Bags' data-passenger='4 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Renault Megane' data-carClass='Compact' data-price='320 DH' data-text='rend vos déplacement pratique et confortable grace à ces multiples avantages: ( aide au parking avant,Console de parking centrale de rangement avec accoudoir glissant,frein de parking assisté.....).' data-speed='5.6/100 MPG' data-img='images/i32.png'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-arrow-left fa fa-angle-left"></div>
+                                        <div class="swiper-arrow-right fa fa-angle-right"></div>
+                                        <div class="pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="tabs-item  ">
+                                    <div class="swiper-container" data-autoplay="0" data-touch="1" data-mouse="0" data-xs-slides="1" data-sm-slides="2" data-md-slides="4" data-lg-slides="6" data-add-slides="6" data-slides-per-view="responsive" data-loop="1" data-speed="1000">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Volkswagen Touareg 2019' data-carClass='4x4' data-price='900 DH' data-text='en boite Automatique et profitez de ses lignes bien soignées, sa motorisation avancée et économique et vivez l’expérience d’une voiture sportive en ville ou sur l’autoroute.' data-bags='2 Bags' data-passenger='4 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Renault Megane' data-carClass='Compact' data-price='320 DH' data-text='rend vos déplacement pratique et confortable grace à ces multiples avantages: ( aide au parking avant,Console de parking centrale de rangement avec accoudoir glissant,frein de parking assisté.....).' data-speed='5.6/100 MPG' data-img='images/i32.png'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Volkswagen Touareg 2019' data-carClass='4x4' data-price='900 DH' data-text='en boite Automatique et profitez de ses lignes bien soignées, sa motorisation avancée et économique et vivez l’expérience d’une voiture sportive en ville ou sur l’autoroute.' data-bags='2 Bags' data-passenger='4 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Renault Megane' data-carClass='Compact' data-price='320 DH' data-text='rend vos déplacement pratique et confortable grace à ces multiples avantages: ( aide au parking avant,Console de parking centrale de rangement avec accoudoir glissant,frein de parking assisté.....).' data-speed='5.6/100 MPG' data-img='images/i32.png'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-arrow-left fa fa-angle-left"></div>
+                                        <div class="swiper-arrow-right fa fa-angle-right"></div>
+                                        <div class="pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="tabs-item  ">
+                                    <div class="swiper-container" data-autoplay="0" data-touch="1" data-mouse="0" data-xs-slides="1" data-sm-slides="2" data-md-slides="4" data-lg-slides="6" data-add-slides="6" data-slides-per-view="responsive" data-loop="1" data-speed="1000">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Volkswagen Touareg 2019' data-carClass='4x4' data-price='900 DH' data-text='en boite Automatique et profitez de ses lignes bien soignées, sa motorisation avancée et économique et vivez l’expérience d’une voiture sportive en ville ou sur l’autoroute.' data-bags='2 Bags' data-passenger='4 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Renault Megane' data-carClass='Compact' data-price='320 DH' data-text='rend vos déplacement pratique et confortable grace à ces multiples avantages: ( aide au parking avant,Console de parking centrale de rangement avec accoudoir glissant,frein de parking assisté.....).' data-speed='5.6/100 MPG' data-img='images/i32.png'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Volkswagen Touareg 2019' data-carClass='4x4' data-price='900 DH' data-text='en boite Automatique et profitez de ses lignes bien soignées, sa motorisation avancée et économique et vivez l’expérience d’une voiture sportive en ville ou sur l’autoroute.' data-bags='2 Bags' data-passenger='4 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Renault Megane' data-carClass='Compact' data-price='320 DH' data-text='rend vos déplacement pratique et confortable grace à ces multiples avantages: ( aide au parking avant,Console de parking centrale de rangement avec accoudoir glissant,frein de parking assisté.....).' data-speed='5.6/100 MPG' data-img='images/i32.png'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-arrow-left fa fa-angle-left"></div>
+                                        <div class="swiper-arrow-right fa fa-angle-right"></div>
+                                        <div class="pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 padd-lr0">
+                        <div class="wheel-collection-info">
+                            <div class="wheel-collection-text">
+                                <h4 class="car-name">Renault Megane</h4>
+                                <span class="car-class">Compact</span>
+                                <h5><b>320 <sup>00 DH</sup></b>/Day</h5>
+                                <p class="car-text">rend vos déplacement pratique et confortable grace à ces multiples avantages: ( aide au parking avant,Console de parking centrale de rangement avec accoudoir glissant,frein de parking assisté.....). </p>
+                                <ul>
+                                    <li><i class="fa fa-suitcase"></i><span class="car-bags">2 Bags</span></li>
+                                    <li><i class="fa fa-user"></i><span class="car-passengers">4 Passengers</span></li>
+                                    <li><i class="fa fa-tachometer"></i><span class="car-speed">5.6/100 MPG</span></li>
+                                </ul>
+                                <a href="#" class="wheel-btn">View All rental Car</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 padd-lr0">
+                        <div class="wheel-collection-img"><img src="images/i32.png" alt="" class="car-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////// -->
+        <div class="container padd-lr0">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="wheel-info-img  marg-lg-t150 marg-lg-b150 marg-md-t100 marg-md-b100">
+                        <img src="images/i7.png" alt="" class="wheel-img">
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="wheel-info-text  marg-lg-t150 marg-lg-b150 marg-md-t100 marg-md-b100 marg-sm-t50 marg-sm-b50">
+                        <div class="wheel-header">
+                            <h5>Qui nous sommes  </h5>
+                            <h3>Nous aimons notre <span>Clients</span></h3>
+                        </div>
+                        <span>Casa Location est une agence de location de voitures basée à Casablanca. </span>
+                        <p>Elle met à votre disposition une large gamme de véhicules. Des citadines familiales, des berlines, des SUV, des 4×4 et des voitures de luxe.
+                            Casa Location vous propose différents modèles de voitures afin de répondre à tous vos besoins mais surtout vous satisfaire. </p>
+                        <a href="about.html" class="wheel-btn">Apprendre encore plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////// -->
+        <div class="wheel-deals text-center">
+            <img src="images/bg2.jpg" alt="" class="wheel-img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-header">
+                            <h5>Soyez avec nous </h5>
+                            <h3>Nous offrons une grande <span>deals</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-deals-text">
+                            <p>Nos services sont personnalisés selon la demande de notre clientèle (Business, tourisme, particuliers…).</p>
+                            <a href="#" class="wheel-btn">Découvrir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////////////////////////////////////// -->
+        <div class="wheel-news  wheel-bg2 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-header text-center marg-lg-t140 marg-lg-b90 marg-md-t50 ">
+                            <h5>our Blog </h5>
+                            <h3>les derniers <span>nouvelles </span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 padd-l0  padd-md-lr15">
+                        <div class="wheel-news-item   wheel-bg1">
+                            <i class="">29 April</i>
+                            <div class="wheel-news-item-img">
+                                <img src="images/i8.jpg" alt="">
+                            </div>
+                            <div class="wheel-news-text">
+                                <h5><a href="news-details.html">Visiter le Maroc pendant l'été</a></h5>
+                                <p></p>
+                                <a href="#">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="wheel-news-item   wheel-bg1">
+                            <i class="">29 April</i>
+                            <div class="wheel-news-item-img">
+                                <img src="images/i9.jpg" alt="">
+                            </div>
+                            <div class="wheel-news-text">
+                                <h5><a href="news-details.html">Des conseils de location de voiture</a></h5>
+                                <p></p>
+                                <a href="#">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padd-r0 padd-md-lr15">
+                        <div class="wheel-news-item   wheel-bg1">
+                            <i class="">29 April</i>
+                            <div class="wheel-news-item-img">
+                                <img src="images/i10.jpg" alt="">
+                            </div>
+                            <div class="wheel-news-text">
+                                <h5><a href="news-details.html">Hyundai H1 : spacieux, élégant et confortable</a></h5>
+                                <p></p>
+                                <a href="#">Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////// -->
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 padd-lr0">
+                    <div class="wheel-info-text2 marg-lg-t140 marg-lg-b150 marg-md-t100 marg-md-b50 ">
+                        <div class="wheel-header">
+                            <h5>saviez-vous? </h5>
+                            <h3>Nous vous laisserons<span> remorquer</span></h3>
+                        </div>
+                        <span>Vous êtes un particulier, une administration publique, une organisation ou une entreprise ? </span>
+                        <p>Casa Location vous accompagne dans toute la démarche à suivre. Nous réglementons votre mobilité quel que soit votre secteur.
+                            Notre objectif est de vous garantir un gain de temps considérable et une satisfaction maximale. </p>
+                        <a href="#" class="wheel-btn">Apprendre encore plus</a>
+                    </div>
+                </div>
+                <div class="col-md-6 padd-lr0">
+                    <div class="wheel-info-video marg-lg-t150 marg-lg-b150 marg-md-t50 marg-md-b50">
+                        <iframe  src="https://www.youtube.com/embed/dBlSHIBUx7g"  ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //////////////////////////////////////////// -->
+        <div class="wheel-quote text-center">
+            <img src="images/bg3.jpg" alt="" class="wheel-img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="swiper-container" data-autoplay="7000" data-touch="1" data-mouse="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="1" data-add-slides="1" data-slides-per-view="responsive" data-loop="1" data-speed="1000">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="wheel-quote-item">
+                                        <div class="wheel-quote-logo"><img src="images/l2.png" alt=""></div>
+                                        <p>Très bonne agence de location .le directeur et le personnel est très agréable et toujours prêt à nous rendre service.je recommande beaucoup cette agence ,j ai été très satisfait voiture très propre toute neuve.</p>
+                                        <div class="wheel-quote-stars"><img src="images/stars.png" alt=""></div>
+                                        <h6>Amina Berada</h6>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="wheel-quote-item">
+                                        <div class="wheel-quote-logo"><img src="images/l2.png" alt=""></div>
+                                        <p>Très bonne agence de location .le directeur et le personnel est très agréable et toujours prêt à nous rendre service.je recommande beaucoup cette agence ,j ai été très satisfait voiture très propre toute neuve.</p>
+                                        <div class="wheel-quote-stars"><img src="images/stars.png" alt=""></div>
+                                        <h6>Amina Berada</h6>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="wheel-quote-item">
+                                        <div class="wheel-quote-logo"><img src="images/l2.png" alt=""></div>
+                                        <p>Très bonne agence de location .le directeur et le personnel est très agréable et toujours prêt à nous rendre service.je recommande beaucoup cette agence ,j ai été très satisfait voiture très propre toute neuve.</p>
+                                        <div class="wheel-quote-stars"><img src="images/stars.png" alt=""></div>
+                                        <h6>Amina Berada</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination"></div>
+                        </div>
+                        <div class="swiper-outer-left fa fa-angle-left"></div>
+                        <div class="swiper-outer-right fa fa-angle-right"></div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-quote-partners">
+                            <a href="#"><img src="images/p1.png" alt=""></a>
+                            <a href="#"><img src="images/p2.png" alt=""></a>
+                            <a href="#"><img src="images/p3.png" alt=""></a>
+                            <a href="#"><img src="images/p4.png" alt=""></a>
+                            <a href="#"><img src="images/p5.png" alt=""></a>
+                            <a href="#"><img src="images/p6.png" alt=""></a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- /////////////////////////////// -->
+        <!-- FOOTER -->
+        <!-- ///////////////// -->
+        <footer class="wheel-footer">
+            <img src="images/bg4.jpg" alt="" class="wheel-img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3  col-sm-6  padd-lr0">
+                        <div class="wheel-address">
+                            <div class="wheel-footer-logo"><a href="#"><img src="images/logo2.png" alt=""></a></div>
+                            <ul>
+                                <li><span><i class="fa fa-map-marker"></i>blanquefort, lagirond <br>
+                                    20500, casablanca  </span>
+                                </li>
+                                <li><a href="#"><span><i class="fa fa-phone"></i> +212 06 61 00 00 00</span></a></li>
+                                <li><a href="#"><span><i class="fa fa-envelope"></i>contact@casa-location.com</span></a></li>
+                            </ul>
+                            <div class="wheel-soc">
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-share-alt"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6  padd-lr0">
+                        <div class="wheel-footer-item">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li><a href="#" class="">About us</a></li>
+                                <li><a href="#" class="">Customer Service</a></li>
+                                <li><a href="#" class="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6  padd-lr0">
+                        <div class="wheel-footer-item ">
+                            <h3>Vehicles</h3>
+                            <ul>
+                                <li><a href="#" class="">Exotic Cars</a></li>
+                                <li><a href="#" class="">SUVs</a></li>
+                                <li><a href="#" class="">Trucks</a></li>
+                                <li><a href="#" class="">Mini Vans</a></li>
+                                <li><a href="#" class="">Moving Trucks</a></li>
+                                <li><a href="#" class="">Vans</a></li>
+                                <li><a href="#" class="">RVs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 padd-lr0">
+                        <div class="wheel-footer-gallery">
+                            <h3>Photo Gallery</h3>
+                            <div class="  clearfix">
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i11.jpg" alt=""></a></div>
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i12.jpg" alt=""></a></div>
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i13.jpg" alt=""></a></div>
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i14.jpg" alt=""></a></div>
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i15.jpg" alt=""></a></div>
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i16.jpg" alt=""></a></div>
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i17.jpg" alt=""></a></div>
+                                <div class="wheel-footer-galery-item"><a href="#"><img src="images/i18.jpg" alt=""></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="wheel-footer-info wheel-bg6">
+            <div class="container">
+                <div class="row">
+                   <div class="col-lg-8 col-sm-6  padd-lr0"><span>&#169; WHEEL 2021 | <a">Casa Location</a> </span></div>
+                    <div class="col-lg-4 col-sm-6 padd-lr0">
+                        <ul>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#"> Listings</a></li>
+                            <li><a href="#"> Reservation</a></li>
+                            <li><a href="#"> Contact</a></li>
+                            <li><a href="#"> About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts project -->
+        <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <!-- count -->
+        <script type="text/javascript" src='assets/js/jquery.countTo.js'></script>
+        <!-- google maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBt5tJTim4lOO3ojbGARhPd1Z3O3CnE-C8" type="text/javascript"></script>
+        <!-- swiper -->
+        <script type="text/javascript" src="assets/js/idangerous.swiper.min.js"></script>
+        <script type="text/javascript" src="assets/js/equalHeightsPlugin.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.datetimepicker.full.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="assets/js/index.js"></script>
+        <!-- sixth block end -->
+    </body>
+
+</html>
